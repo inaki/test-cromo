@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { Botones } from './Botones';
+import { Button } from './Button';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: 'Example/Botones',
-  component: Botones,
+  title: 'Example/Button',
+  component: Button,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
     backgroundColor: { control: 'color' },
